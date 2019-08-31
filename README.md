@@ -1,5 +1,5 @@
 # kbengine-httpserver
-asynchronous httpserver for kbengine using fd operation api of kbengine 
+asynchronous httpserver for kbengine using fd operation api of [kbengine](https://github.com/kbengine/kbengine)
 
 为kbengine写的http server 框架。站在巨人肩膀上面，借鉴收纳了[tornado](https://github.com/tornadoweb/tornado) 和 [sanic](https://github.com/huge-success/sanic)的代码特性
 

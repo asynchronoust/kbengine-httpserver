@@ -62,9 +62,17 @@ app.run("0.0.0.0", 9191)
 * 定义 url 和 handler的对应关系，示例中的 `url_map`
 * 生成app实例，app.run() 就运行起此httpserver
 
+
 **说明：**
 
 * 现在没有出pip包，如果要放到工程里面的话，直接把`httpserver`目录拷贝到自己工程中`assets/scripts/server_common`目录下面
+
+# requirements
+
+* httptools
+* multidict
+
+安装上面两个库的最新版本即可，另外在使用pip安装的时候一定要安装和引擎内置Python版本一致的Python，再用pip安装，这样才能正确在引擎的Python版本下正常运行。因为httptools库使用了c扩展，所以要保证Python版本一致
 
 # 完善与改进
 
